@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sudharsan E — Resume</title>
+<style>
+  :root{
+    --ink:#1a1d24;
+    --muted:#5b6472;
+    --accent:#2563eb;
+    --accent-soft:#eaf1ff;
+    --line:#e4e8ef;
+    --bg:#ffffff;
+    --sidebar:#0f172a;
+    --sidebar-ink:#e6ebf3;
+    --sidebar-muted:#9aa6b8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);
+    background:#aeb6c2;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{
+    width:210mm;
+    min-height:297mm;
+    margin:24px auto;
+    background:var(--bg);
+    display:grid;
+    grid-template-columns:64mm 1fr;
+    box-shadow:0 10px 40px rgba(0,0,0,.25);
+    overflow:hidden;
+  }
+
+  /* ---------- SIDEBAR ---------- */
+  .sidebar{
+    background:var(--sidebar);
+    color:var(--sidebar-ink);
+    padding:26px 20px;
+  }
+  .photo{
+    width:108px;height:108px;border-radius:50%;
+    margin:0 auto 16px;
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+    display:flex;align-items:center;justify-content:center;
+    font-size:38px;font-weight:700;color:#fff;
+    border:3px solid rgba(255,255,255,.15);
+  }
+  .name{
+    text-align:center;font-size:24px;font-weight:700;letter-spacing:.5px;color:#fff;
+  }
+  .role{
+    text-align:center;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;
+    color:var(--accent);font-weight:600;margin-top:4px;margin-bottom:22px;
+  }
+  .side-section{margin-bottom:22px;}
+  .side-section h2{
+    font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#fff;
+    border-bottom:1px solid rgba(255,255,255,.18);padding-bottom:6px;margin-bottom:12px;
+  }
+  .contact-item{
+    display:flex;align-items:flex-start;gap:9px;font-size:11.5px;
+    color:var(--sidebar-muted);margin-bottom:10px;word-break:break-word;
+  }
+  .contact-item .ico{color:var(--accent);flex-shrink:0;margin-top:1px;font-weight:700;}
+  .contact-item a{color:var(--sidebar-muted);text-decoration:none;}
+
+  .skill-group{margin-bottom:12px;}
+  .skill-group .label{font-size:11px;color:#fff;font-weight:600;margin-bottom:5px;}
+  .chips{display:flex;flex-wrap:wrap;gap:5px;}
+  .chip{
+    font-size:10px;background:rgba(255,255,255,.08);color:var(--sidebar-ink);
+    padding:3px 8px;border-radius:20px;border:1px solid rgba(255,255,255,.08);
+  }
+
+  /* ---------- MAIN ---------- */
+  .main{padding:30px 30px 30px 32px;}
+  .summary{font-size:12px;color:var(--muted);margin-bottom:24px;}
+
+  .section{margin-bottom:22px;}
+  .section-title{
+    display:flex;align-items:center;gap:10px;
+    font-size:14px;letter-spacing:1.5px;text-transform:uppercase;
+    font-weight:700;color:var(--ink);margin-bottom:14px;
+  }
+  .section-title::before{
+    content:"";width:18px;height:18px;border-radius:5px;
+    background:var(--accent);flex-shrink:0;
+    -webkit-mask:none;
+  }
+  .section-title::after{
+    content:"";flex:1;height:1px;background:var(--line);
+  }
+
+  .item{margin-bottom:15px;position:relative;padding-left:16px;}
+  .item::before{
+    content:"";position:absolute;left:0;top:6px;width:7px;height:7px;border-radius:50%;
+    background:var(--accent);
+  }
+  .item-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  .item-title{font-size:13px;font-weight:700;color:var(--ink);}
+  .item-meta{font-size:10.5px;color:var(--accent);font-weight:600;}
+  .item-sub{font-size:11px;color:var(--muted);font-style:italic;margin-bottom:5px;}
+  .tech{font-size:10px;color:var(--accent);font-weight:600;margin-bottom:5px;}
+  ul.bullets{list-style:none;margin-top:4px;}
+  ul.bullets li{font-size:11.5px;color:#3a414d;padding-left:14px;position:relative;margin-bottom:3px;}
+  ul.bullets li::before{content:"▸";position:absolute;left:0;color:var(--accent);font-size:10px;top:1px;}
+
+  /* education */
+  .edu-item{margin-bottom:12px;}
+  .edu-item .deg{font-size:12.5px;font-weight:700;}
+  .edu-item .inst{font-size:11px;color:var(--muted);}
+  .edu-item .score{font-size:11px;color:var(--accent);font-weight:600;}
+
+  /* achievements grid */
+  .ach-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px 16px;}
+  .ach{font-size:11px;color:#3a414d;display:flex;gap:7px;align-items:flex-start;}
+  .rank{
+    font-size:9.5px;font-weight:700;color:#fff;background:var(--accent);
+    border-radius:4px;padding:1px 6px;flex-shrink:0;white-space:nowrap;
+  }
+  .rank.r1{background:#d4a017;}
+  .rank.r2{background:#7d8590;}
+  .rank.r3{background:#b5651d;}
+
+  @media print{
+    body{background:#fff;}
+    .page{margin:0;box-shadow:none;width:100%;min-height:auto;}
+    @page{size:A4;margin:0;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="photo">SE</div>
+    <div class="name">Sudharsan E</div>
+    <div class="role">Java Full-Stack Dev</div>
+
+    <div class="side-section">
+      <h2>Contact</h2>
+      <div class="contact-item"><span class="ico">✉</span><a href="mailto:sudharsanelangovan2005@gmail.com">sudharsanelangovan2005@gmail.com</a></div>
+      <div class="contact-item"><span class="ico">⌥</span><a href="https://github.com/redeyeshu007">github.com/redeyeshu007</a></div>
+      <div class="contact-item"><span class="ico">in</span><a href="https://linkedin.com/in/sudharsan-e-4b0488299">linkedin.com/in/sudharsan-e</a></div>
+      <div class="contact-item"><span class="ico">⌖</span>Dindigul, Tamil Nadu, India</div>
+    </div>
+
+    <div class="side-section">
+      <h2>Skills</h2>
+      <div class="skill-group">
+        <div class="label">Languages</div>
+        <div class="chips">
+          <span class="chip">Java</span><span class="chip">JavaScript</span>
+          <span class="chip">Python</span><span class="chip">Dart</span><span class="chip">SQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="label">Frontend</div>
+        <div class="chips">
+          <span class="chip">React.js</span><span class="chip">HTML5</span><span class="chip">CSS3</span>
+          <span class="chip">Three.js</span><span class="chip">Tailwind</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="label">Backend</div>
+        <div class="chips">
+          <span class="chip">Spring Boot</span><span class="chip">Node.js</span>
+          <span class="chip">Express.js</span><span class="chip">REST APIs</span><span class="chip">JWT</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="label">Databases</div>
+        <div class="chips">
+          <span class="chip">MySQL</span><span class="chip">MongoDB</span>
+          <span class="chip">Firebase</span><span class="chip">Firestore</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="label">Tools & AI/ML</div>
+        <div class="chips">
+          <span class="chip">Git</span><span class="chip">Docker</span><span class="chip">Kafka</span>
+          <span class="chip">Pathway</span><span class="chip">Figma</span>
+          <span class="chip">TensorFlow</span><span class="chip">OpenCV</span><span class="chip">Flutter</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <p class="summary">
+      Computer Science Engineering student and Java Full-Stack Developer skilled in Java, JavaScript,
+      React.js, Node.js, Express.js, REST APIs, MongoDB, MySQL, and SQL. Experienced in building
+      responsive web applications, dashboards, APIs, and database-driven systems with clean UI,
+      seamless API integration, and maintainable code.
+    </p>
+
+    <section class="section">
+      <div class="section-title">Experience</div>
+      <div class="item">
+        <div class="item-head">
+          <span class="item-title">Freelance Web Developer</span>
+          <span class="item-meta">Self-employed · Ongoing</span>
+        </div>
+        <ul class="bullets">
+          <li>Built responsive websites and web applications for clients from requirements gathering to delivery.</li>
+          <li>Developed front-end interfaces and backend functionality using full-stack development practices.</li>
+          <li>Managed design, implementation, hosting setup, debugging, and post-delivery fixes.</li>
+          <li>Converted non-technical client requirements into clear scopes, timelines, and working software.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Projects</div>
+
+      <div class="item">
+        <div class="item-title">GHOST LINE — AI-Powered Anonymous Social Platform</div>
+        <div class="tech">React.js · Java Spring Boot · REST API · JWT · Firebase Firestore</div>
+        <ul class="bullets">
+          <li>Built a premium anonymous social platform where users connect through emotions using AI-based sentiment analysis and emotion-detection APIs.</li>
+          <li>Delivered a full-stack app with Tailwind CSS, realtime chat rooms, and mood-based recommendations.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-title">MeVoAI — Meeting Insights Generator</div>
+        <div class="tech">AI/ML · Chrome Extension · Computer Vision</div>
+        <ul class="bullets">
+          <li>Built an AI assistant for Google Meet that generates real-time meeting insights, summaries, and action items.</li>
+          <li>Designed a Chrome Extension interface with sign-language gesture prediction to improve accessibility.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-title">FinLog Monitor — Distributed Log Monitoring</div>
+        <div class="tech">Pathway · Kafka · Docker</div>
+        <ul class="bullets">
+          <li>Built a real-time distributed log monitoring system for financial-services workloads.</li>
+          <li>Used Kafka, Pathway, Docker, and a centralized dashboard for ingestion, stream processing, and monitoring.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Education</div>
+      <div class="edu-item">
+        <div class="deg">B.E. in Computer Science and Engineering</div>
+        <div class="inst">PSNA College of Engineering and Technology, Dindigul, Tamil Nadu</div>
+        <div class="score">CGPA: 8.14</div>
+      </div>
+      <div class="edu-item">
+        <div class="deg">HSC (Computer Science)</div>
+        <div class="inst">MSP Solai Nadar Memorial Higher Secondary School, Dindigul</div>
+        <div class="score">Percentage: 84.16%</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Achievements</div>
+      <div class="ach-grid">
+        <div class="ach"><span class="rank r1">1st</span> Algorithm Event — Science &amp; Tech Festival, DSCE</div>
+        <div class="ach"><span class="rank r1">1st</span> MindTwist Event — Science &amp; Tech Festival, DSCE</div>
+        <div class="ach"><span class="rank r2">2nd</span> Technical Quiz — Symposium, Sethu Institute of Technology</div>
+        <div class="ach"><span class="rank r2">2nd</span> PSNA CSE Intra-departmental Hackathon</div>
+        <div class="ach"><span class="rank r3">3rd</span> National Level Hackathon — EASA College, Coimbatore</div>
+        <div class="ach"><span class="rank">4th</span> Hackathon — Rajalakshmi Institute of Technology</div>
+        <div class="ach"><span class="rank">4th</span> Hackathon — K. S. School of Engineering, Bangalore</div>
+        <div class="ach"><span class="rank">5th</span> GDG Hackathon — PSNA IT Department</div>
+      </div>
+    </section>
+  </main>
+
+</div>
+</body>
+</html>

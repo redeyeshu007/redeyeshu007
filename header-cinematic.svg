@@ -1,0 +1,128 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="100%" height="auto" fill="none">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800;900&amp;display=swap');
+    </style>
+
+    <!-- Cinematic background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"  stop-color="#04060d" />
+      <stop offset="50%" stop-color="#070d1a" />
+      <stop offset="100%" stop-color="#03050b" />
+    </linearGradient>
+
+    <!-- Name base gradient (refined silver-to-cyan) -->
+    <linearGradient id="nameFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#ffffff" />
+      <stop offset="55%" stop-color="#cfe9f5" />
+      <stop offset="100%" stop-color="#5fb8d6" />
+    </linearGradient>
+
+    <!-- Moving shine band -->
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="45%"  stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.85" />
+      <stop offset="55%"  stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Aurora glows -->
+    <radialGradient id="aCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.40" />
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="aBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b7dff" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#3b7dff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="aTeal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#19e3c0" stop-opacity="0.26" />
+      <stop offset="100%" stop-color="#19e3c0" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="ruleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00d4ff" stop-opacity="0" />
+      <stop offset="50%"  stop-color="#00d4ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38" />
+    </filter>
+    <filter id="nameGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+
+    <clipPath id="nameClip">
+      <text x="500" y="178" text-anchor="middle"
+            font-family="Montserrat, sans-serif" font-weight="900"
+            font-size="78" letter-spacing="9">SUDHARSAN E</text>
+    </clipPath>
+
+    <style>
+      .reveal { opacity: 0; animation: rise 1.6s cubic-bezier(.2,.7,.2,1) forwards; }
+      .d1 { animation-delay: .35s; } .d2 { animation-delay: .65s; } .d3 { animation-delay: .9s; }
+      .role {
+        font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 15px;
+        letter-spacing: 6px; text-anchor: middle; fill: #9fb2c9;
+      }
+      .tag {
+        font-family: "SFMono-Regular", Consolas, monospace; font-weight: 600; font-size: 12.5px;
+        letter-spacing: 3px; text-anchor: middle; fill: #4fd6e8;
+      }
+      @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1000" height="340" fill="url(#bg)" rx="20" />
+
+  <!-- Drifting aurora light (depth) -->
+  <g filter="url(#soft)">
+    <ellipse cx="270" cy="120" rx="190" ry="150" fill="url(#aCyan)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 60 30; -20 -25; 0 0" dur="19s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="760" cy="230" rx="220" ry="170" fill="url(#aBlue)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -50 -30; 30 20; 0 0" dur="23s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="520" cy="60" rx="160" ry="120" fill="url(#aTeal)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 25 35; -35 -10; 0 0" dur="27s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+
+  <!-- Cinematic letterbox bars -->
+  <rect x="0" y="0"   width="1000" height="6" fill="#000" opacity="0.55" rx="20" />
+  <rect x="0" y="334" width="1000" height="6" fill="#000" opacity="0.55" rx="20" />
+
+  <!-- Thin top kicker -->
+  <g class="reveal d1">
+    <line x1="430" y1="86" x2="570" y2="86" stroke="url(#ruleGrad)" stroke-width="1.5" />
+    <text x="500" y="78" class="tag">PORTFOLIO&#160;//&#160;2026</text>
+  </g>
+
+  <!-- Name with metallic shine sweep -->
+  <g class="reveal d2" filter="url(#nameGlow)">
+    <text x="500" y="178" text-anchor="middle" font-family="Montserrat, sans-serif"
+          font-weight="900" font-size="78" letter-spacing="9" fill="url(#nameFill)">SUDHARSAN E</text>
+    <g clip-path="url(#nameClip)">
+      <rect x="-400" y="90" width="300" height="120" fill="url(#shine)" transform="skewX(-18)">
+        <animate attributeName="x" from="-400" to="1100" dur="4.5s"
+                 begin="1.4s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+
+  <!-- Accent rule -->
+  <line class="reveal d2" x1="350" y1="206" x2="650" y2="206" stroke="url(#ruleGrad)" stroke-width="2" />
+
+  <!-- Role line -->
+  <g class="reveal d3">
+    <text x="500" y="244" class="role">JAVA FULL-STACK&#160;&#160;&#183;&#160;&#160;WEB APPS&#160;&#160;&#183;&#160;&#160;REST APIs&#160;&#160;&#183;&#160;&#160;AI</text>
+    <text x="500" y="276" class="tag">FULL-STACK PROJECTS&#160;&#160;|&#160;&#160;MULTIPLE HACKATHON WINS&#160;&#160;|&#160;&#160;CGPA 8.14</text>
+  </g>
+</svg>
