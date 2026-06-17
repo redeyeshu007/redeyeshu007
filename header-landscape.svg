@@ -170,6 +170,6 @@
     </g>
     <line class="reveal d2" x1="360" y1="204" x2="640" y2="204" stroke="url(#rule)" stroke-width="2" />
     <text class="reveal d3 role" x="500" y="232" fill="#234a63">
-      <animate attributeName="fill" dur="14s" repeatCount="indefinite" keyTimes="0;0.35;0.5;0.85;1" values="#234a63;#234a63;#aebfd4;#aebfd4;#234a63" />JAVA FULL-STACK&#160;&#160;&#183;&#160;&#160;WEB APPS&#160;&#160;&#183;&#160;&#160;REST APIs&#160;&#160;&#183;&#160;&#160;AI</text>
+      <animate attributeName="fill" dur="14s" repeatCount="indefinite" keyTimes="0;0.35;0.5;0.85;1" values="#234a63;#234a63;#aebfd4;#aebfd4;#234a63" />FULL-STACK&#160;&#160;&#183;&#160;&#160;WEB APPS&#160;&#160;&#183;&#160;&#160;REST APIs&#160;&#160;&#183;&#160;&#160;MOBILE</text>
   </g>
 </svg>
