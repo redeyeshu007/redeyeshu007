@@ -161,6 +161,20 @@ CS Engineering student and full-stack developer. I enjoy turning rough ideas int
 
 <br />
 
+## Pac-Man Contribution
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/redeyeshu007/redeyeshu007/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/redeyeshu007/redeyeshu007/output/pacman-contribution-graph.svg">
+  <img src="https://raw.githubusercontent.com/redeyeshu007/redeyeshu007/output/pacman-contribution-graph.svg" alt="Pac-Man Contribution Graph" />
+</picture>
+
+</div>
+
+<br />
+
 ## Connect
 
 <div align="center">
