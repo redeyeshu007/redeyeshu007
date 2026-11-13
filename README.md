@@ -10,42 +10,41 @@ CS Engineering student and full-stack developer. I enjoy turning rough ideas int
 
 <br />
 
-## Tech Stack
+## Skills
 
 <table border="0" cellspacing="0" cellpadding="12">
 <tr>
-<td align="right" width="160" valign="middle"><b>Languages</b>&nbsp;&nbsp;&nbsp;</td>
+<td align="right" width="200" valign="middle"><b>Programming</b>&nbsp;&nbsp;&nbsp;</td>
 <td align="left" valign="middle">
-<img src="https://skillicons.dev/icons?i=java,js,python,dart&perline=10" height="44" alt="Languages" /><br>
-<sub>Java&nbsp;·&nbsp;JavaScript&nbsp;·&nbsp;Python&nbsp;·&nbsp;Dart&nbsp;·&nbsp;SQL</sub>
+<img src="https://skillicons.dev/icons?i=java&perline=10" height="44" alt="Programming" /><br>
+<sub>Java</sub>
 </td>
 </tr>
 <tr>
-<td align="right" valign="middle"><b>Frontend &amp; Mobile</b>&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="middle"><b>Generative AI &amp; LLMs</b>&nbsp;&nbsp;&nbsp;</td>
 <td align="left" valign="middle">
-<img src="https://skillicons.dev/icons?i=react,threejs,flutter,html,css&perline=10" height="44" alt="Frontend and Mobile" /><br>
-<sub>React.js&nbsp;·&nbsp;Three.js&nbsp;·&nbsp;Flutter&nbsp;·&nbsp;HTML5&nbsp;·&nbsp;CSS3&nbsp;·&nbsp;Responsive</sub>
+<sub>LLMs&nbsp;·&nbsp;Prompt Engineering&nbsp;·&nbsp;Retrieval-Augmented Generation (RAG) → LangGraph&nbsp;·&nbsp;Multi-Agent Systems&nbsp;·&nbsp;Agentic AI&nbsp;·&nbsp;ChromaDB</sub>
 </td>
 </tr>
 <tr>
-<td align="right" valign="middle"><b>Backend &amp; AI</b>&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="middle"><b>Machine Learning</b>&nbsp;&nbsp;&nbsp;</td>
 <td align="left" valign="middle">
-<img src="https://skillicons.dev/icons?i=nodejs,express,tensorflow,opencv&perline=10" height="44" alt="Backend and AI" /><br>
-<sub>Node.js&nbsp;·&nbsp;Express.js&nbsp;·&nbsp;REST APIs&nbsp;·&nbsp;TensorFlow&nbsp;·&nbsp;OpenCV</sub>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&perline=10" height="44" alt="Machine Learning" /><br>
+<sub>Model Training&nbsp;·&nbsp;Model Evaluation → PyTorch&nbsp;·&nbsp;TensorFlow&nbsp;·&nbsp;Deep Learning</sub>
 </td>
 </tr>
 <tr>
-<td align="right" valign="middle"><b>Data &amp; Cloud</b>&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="middle"><b>Data &amp; Streaming</b>&nbsp;&nbsp;&nbsp;</td>
 <td align="left" valign="middle">
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase&perline=10" height="44" alt="Data and Cloud" /><br>
-<sub>MySQL&nbsp;·&nbsp;MongoDB&nbsp;·&nbsp;Firebase&nbsp;·&nbsp;Firestore</sub>
+<img src="https://skillicons.dev/icons?i=kafka&perline=10" height="44" alt="Data and Streaming" /><br>
+<sub>Data Preprocessing&nbsp;·&nbsp;Data Pipelines&nbsp;·&nbsp;Kafka</sub>
 </td>
 </tr>
 <tr>
-<td align="right" valign="middle"><b>Tools</b>&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="middle"><b>Databases</b>&nbsp;&nbsp;&nbsp;</td>
 <td align="left" valign="middle">
-<img src="https://skillicons.dev/icons?i=git,github,docker,kafka,figma,vscode&perline=10" height="44" alt="Tools" /><br>
-<sub>Git&nbsp;·&nbsp;GitHub&nbsp;·&nbsp;Docker&nbsp;·&nbsp;Kafka&nbsp;·&nbsp;Pathway&nbsp;·&nbsp;Figma&nbsp;·&nbsp;VS Code</sub>
+<img src="https://skillicons.dev/icons?i=mongodb&perline=10" height="44" alt="Databases" /><br>
+<sub>MongoDB&nbsp;·&nbsp;ChromaDB</sub>
 </td>
 </tr>
 </table>

@@ -54,9 +54,9 @@
   }
   .role{
     text-align:center;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;
-    color:var(--accent);font-weight:600;margin-top:4px;margin-bottom:22px;
+    color:var(--accent);font-weight:600;margin-top:4px;margin-bottom:20px;
   }
-  .side-section{margin-bottom:22px;}
+  .side-section{margin-bottom:20px;}
   .side-section h2{
     font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#fff;
     border-bottom:1px solid rgba(255,255,255,.18);padding-bottom:6px;margin-bottom:12px;
@@ -74,17 +74,18 @@
   .chip{
     font-size:10px;background:rgba(255,255,255,.08);color:var(--sidebar-ink);
     padding:3px 8px;border-radius:20px;border:1px solid rgba(255,255,255,.08);
+    line-height:1.3;
   }
 
   /* ---------- MAIN ---------- */
-  .main{padding:30px 30px 30px 32px;}
-  .summary{font-size:12px;color:var(--muted);margin-bottom:24px;}
+  .main{padding:26px 28px 26px 30px;}
+  .summary{font-size:11.5px;color:var(--muted);margin-bottom:20px;line-height:1.45;}
 
-  .section{margin-bottom:22px;}
+  .section{margin-bottom:18px;}
   .section-title{
     display:flex;align-items:center;gap:10px;
-    font-size:14px;letter-spacing:1.5px;text-transform:uppercase;
-    font-weight:700;color:var(--ink);margin-bottom:14px;
+    font-size:13.5px;letter-spacing:1.5px;text-transform:uppercase;
+    font-weight:700;color:var(--ink);margin-bottom:12px;
   }
   .section-title::before{
     content:"";width:18px;height:18px;border-radius:5px;
@@ -128,7 +129,7 @@
 
   @media print{
     body{background:#fff;}
-    .page{margin:0;box-shadow:none;width:100%;min-height:auto;}
+    .page{margin:0;box-shadow:none;width:100%;min-height:auto;overflow:visible;}
     @page{size:A4;margin:0;}
   }
 </style>
@@ -153,39 +154,46 @@
     <div class="side-section">
       <h2>Skills</h2>
       <div class="skill-group">
-        <div class="label">Languages</div>
+        <div class="label">Programming</div>
         <div class="chips">
-          <span class="chip">Java</span><span class="chip">JavaScript</span>
-          <span class="chip">Python</span><span class="chip">Dart</span><span class="chip">SQL</span>
+          <span class="chip">Java</span>
         </div>
       </div>
       <div class="skill-group">
-        <div class="label">Frontend</div>
+        <div class="label">Generative AI &amp; LLMs</div>
         <div class="chips">
-          <span class="chip">React.js</span><span class="chip">HTML5</span><span class="chip">CSS3</span>
-          <span class="chip">Three.js</span><span class="chip">Tailwind</span>
+          <span class="chip">LLMs</span>
+          <span class="chip">Prompt Engineering</span>
+          <span class="chip">Retrieval-Augmented Generation (RAG)</span>
+          <span class="chip">LangGraph</span>
+          <span class="chip">Multi-Agent Systems</span>
+          <span class="chip">Agentic AI</span>
+          <span class="chip">ChromaDB</span>
         </div>
       </div>
       <div class="skill-group">
-        <div class="label">Backend</div>
+        <div class="label">Machine Learning</div>
         <div class="chips">
-          <span class="chip">Spring Boot</span><span class="chip">Node.js</span>
-          <span class="chip">Express.js</span><span class="chip">REST APIs</span><span class="chip">JWT</span>
+          <span class="chip">Model Training</span>
+          <span class="chip">Model Evaluation</span>
+          <span class="chip">PyTorch</span>
+          <span class="chip">TensorFlow</span>
+          <span class="chip">Deep Learning</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="label">Data &amp; Streaming</div>
+        <div class="chips">
+          <span class="chip">Data Preprocessing</span>
+          <span class="chip">Data Pipelines</span>
+          <span class="chip">Kafka</span>
         </div>
       </div>
       <div class="skill-group">
         <div class="label">Databases</div>
         <div class="chips">
-          <span class="chip">MySQL</span><span class="chip">MongoDB</span>
-          <span class="chip">Firebase</span><span class="chip">Firestore</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <div class="label">Tools & AI/ML</div>
-        <div class="chips">
-          <span class="chip">Git</span><span class="chip">Docker</span><span class="chip">Kafka</span>
-          <span class="chip">Pathway</span><span class="chip">Figma</span>
-          <span class="chip">TensorFlow</span><span class="chip">OpenCV</span><span class="chip">Flutter</span>
+          <span class="chip">MongoDB</span>
+          <span class="chip">ChromaDB</span>
         </div>
       </div>
     </div>
@@ -194,10 +202,9 @@
   <!-- MAIN -->
   <main class="main">
     <p class="summary">
-      Computer Science Engineering student and Java Full-Stack Developer skilled in Java, JavaScript,
-      React.js, Node.js, Express.js, REST APIs, MongoDB, MySQL, and SQL. Experienced in building
-      responsive web applications, dashboards, APIs, and database-driven systems with clean UI,
-      seamless API integration, and maintainable code.
+      Computer Science Engineering student specializing in Java, Generative AI &amp; LLMs, Machine Learning,
+      and Data Streaming. Experienced in building Agentic AI workflows, Retrieval-Augmented Generation (RAG)
+      pipelines, deep learning models, and real-time streaming architectures.
     </p>
 
     <section class="section">
