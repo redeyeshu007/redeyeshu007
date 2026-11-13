@@ -12,40 +12,26 @@ I’m Sudharsan, an AI Engineer and 4× National-Level Hackathon Winner passiona
 
 ## Skills
 
-<table border="0" cellspacing="0" cellpadding="12">
+<table border="0" cellspacing="0" cellpadding="12" width="100%">
 <tr>
-<td align="right" width="200" valign="middle"><b>Programming</b>&nbsp;&nbsp;&nbsp;</td>
-<td align="left" valign="middle">
-<img src="https://skillicons.dev/icons?i=java&perline=10" height="44" alt="Programming" /><br>
-<sub>Java</sub>
-</td>
+<td align="left" width="220" valign="middle"><b>Programming</b></td>
+<td align="left" valign="middle">Java</td>
 </tr>
 <tr>
-<td align="right" valign="middle"><b>Generative AI &amp; LLMs</b>&nbsp;&nbsp;&nbsp;</td>
-<td align="left" valign="middle">
-<sub>LLMs&nbsp;·&nbsp;Prompt Engineering&nbsp;·&nbsp;Retrieval-Augmented Generation (RAG) → LangGraph&nbsp;·&nbsp;Multi-Agent Systems&nbsp;·&nbsp;Agentic AI&nbsp;·&nbsp;ChromaDB</sub>
-</td>
+<td align="left" valign="middle"><b>Generative AI &amp; LLMs</b></td>
+<td align="left" valign="middle">LLMs, Prompt Engineering, Retrieval-Augmented Generation (RAG) → LangGraph, Multi-Agent Systems, Agentic AI, ChromaDB</td>
 </tr>
 <tr>
-<td align="right" valign="middle"><b>Machine Learning</b>&nbsp;&nbsp;&nbsp;</td>
-<td align="left" valign="middle">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&perline=10" height="44" alt="Machine Learning" /><br>
-<sub>Model Training&nbsp;·&nbsp;Model Evaluation → PyTorch&nbsp;·&nbsp;TensorFlow&nbsp;·&nbsp;Deep Learning</sub>
-</td>
+<td align="left" valign="middle"><b>Machine Learning</b></td>
+<td align="left" valign="middle">Model Training, Model Evaluation → PyTorch, TensorFlow, Deep Learning</td>
 </tr>
 <tr>
-<td align="right" valign="middle"><b>Data &amp; Streaming</b>&nbsp;&nbsp;&nbsp;</td>
-<td align="left" valign="middle">
-<img src="https://skillicons.dev/icons?i=kafka&perline=10" height="44" alt="Data and Streaming" /><br>
-<sub>Data Preprocessing&nbsp;·&nbsp;Data Pipelines&nbsp;·&nbsp;Kafka</sub>
-</td>
+<td align="left" valign="middle"><b>Data &amp; Streaming</b></td>
+<td align="left" valign="middle">Data Preprocessing, Data Pipelines, Kafka</td>
 </tr>
 <tr>
-<td align="right" valign="middle"><b>Databases</b>&nbsp;&nbsp;&nbsp;</td>
-<td align="left" valign="middle">
-<img src="https://skillicons.dev/icons?i=mongodb&perline=10" height="44" alt="Databases" /><br>
-<sub>MongoDB&nbsp;·&nbsp;ChromaDB</sub>
-</td>
+<td align="left" valign="middle"><b>Databases</b></td>
+<td align="left" valign="middle">MongoDB, ChromaDB</td>
 </tr>
 </table>
 
