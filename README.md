@@ -89,10 +89,10 @@ I’m Sudharsan, an AI Engineer and 4× National-Level Hackathon Winner passiona
 ## Credentials & Achievements
 
 - **B.E. Computer Science and Engineering** — PSNA College of Engineering and Technology, Dindigul *(Expected 2027)*
-- **1st Place** — Algorithm Event & MindTwist, Science & Tech Festival, Dhanalakshmi Srinivasan College of Engineering
-- **2nd Place** — Technical Quiz, Symposium (Sethu Institute of Technology) · PSNA CSE Intra-departmental Hackathon
+- **Top 1%** — Amazon ML School Hackathon
+- **1st Place** — Algorithm Event & MindTwist Event, Science & Tech Festival, Dhanalakshmi Srinivasan College of Engineering
+- **2nd Place** — Robovanta 26 Hackathon; Technical Quiz at Sethu Institute of Technology; PSNA CSE Intra-departmental Hackathon
 - **3rd Place** — National Level Hackathon, EASA College of Engineering, Coimbatore
-- **Top finishes** — Rajalakshmi Institute of Technology · K. S. School of Engineering, Bangalore · GDG Hackathon, PSNA
 
 <br />
 
