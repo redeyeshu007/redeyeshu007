@@ -43,55 +43,40 @@ I’m Sudharsan, an AI Engineer and 4× National-Level Hackathon Winner passiona
 <tr>
 <td valign="top" width="100%">
 
+### Ascendo AI — Multi-Agent Business Analysis Platform
+
+- Built a multi-agent AI platform with a Master Planner orchestrating specialized LangGraph agents for sales, marketing, lead generation, strategy, and customer success to produce business-analysis reports.
+- Engineered FastAPI REST APIs with MongoDB, ChromaDB, JWT authentication, SSE streaming, and Stripe billing, paired with a React/Vite dashboard using Three.js, Tailwind, and Recharts.
+- Containerized the full stack with Docker and structured the agent pipeline so new analysis agents can be added without modifying existing agents.
+
+<sub>**React.js** &nbsp;·&nbsp; **Vite** &nbsp;·&nbsp; **FastAPI** &nbsp;·&nbsp; **LangGraph** &nbsp;·&nbsp; **MongoDB** &nbsp;·&nbsp; **ChromaDB** &nbsp;·&nbsp; **JWT** &nbsp;·&nbsp; **Stripe** &nbsp;·&nbsp; **Docker**</sub>
+
+</td>
+</tr>
+<tr><td><br></td></tr>
+<tr>
+<td valign="top" width="100%">
+
+### FinLog Monitor — Real-Time AI Log Intelligence Platform
+
+- Built a real-time log intelligence platform ingesting trading, payment, and banking streams through Kafka into Pathway pipelines that normalize heterogeneous schemas.
+- Developed a PyTorch anomaly detection engine over error-rate, latency, and volume windows, combined with LLM-based classification and root-cause identification to surface failures.
+- Implemented RAG-powered incident assistance over runbooks and historical incidents, serving remediation guidance through FastAPI with Slack/email alerting and Docker deployment.
+
+<sub>**Python** &nbsp;·&nbsp; **Pathway** &nbsp;·&nbsp; **Kafka** &nbsp;·&nbsp; **PyTorch** &nbsp;·&nbsp; **LLMs** &nbsp;·&nbsp; **RAG** &nbsp;·&nbsp; **FastAPI** &nbsp;·&nbsp; **Docker**</sub>
+
+</td>
+</tr>
+<tr><td><br></td></tr>
+<tr>
+<td valign="top" width="100%">
+
 ### MeVo AI — Meeting Insights Generator
 
-- AI assistant that joins Google Meet calls in real time and produces running insights, summaries, and extracted action items
-- Chrome Extension front end captures the live meeting stream without disrupting the host call
-- Multi-modal sign-language gesture prediction so deaf and hard-of-hearing participants can be understood live
+- Built an AI assistant that joins Google Meet calls in real time and produces meeting insights, summaries, action items, and deadlines through a Chrome Extension.
+- Added a multi-modal Computer Vision model for real-time sign-language gesture prediction from the video stream, supporting live accessibility use cases.
 
-<sub>**AI / ML** &nbsp;·&nbsp; **Chrome Extension** &nbsp;·&nbsp; **Computer Vision** &nbsp;·&nbsp; **OpenCV**</sub>
-
-</td>
-</tr>
-<tr><td><br></td></tr>
-<tr>
-<td valign="top" width="100%">
-
-### Real Estate Management System
-
-- Property management platform with an admin dashboard for real-time inventory and client-inquiry tracking
-- Role-based flows so agents and admins see only what they need — less noise, faster operations
-- Reusable React components on a Node.js API layer to keep the codebase maintainable as features grow
-
-<sub>**React.js** &nbsp;·&nbsp; **Node.js** &nbsp;·&nbsp; **JavaScript**</sub>
-
-</td>
-</tr>
-<tr><td><br></td></tr>
-<tr>
-<td valign="top" width="100%">
-
-### FinLog Monitor — Distributed Log Monitoring
-
-- Streaming log-monitoring system for financial-services workloads where downtime is expensive
-- Kafka for ingestion and Pathway for real-time processing to flag errors as they happen
-- Dockerized for consistent environments, with a centralized dashboard for on-call visibility
-
-<sub>**Pathway** &nbsp;·&nbsp; **Kafka** &nbsp;·&nbsp; **Docker**</sub>
-
-</td>
-</tr>
-<tr><td><br></td></tr>
-<tr>
-<td valign="top" width="100%">
-
-### Sign Language Recognition System
-
-- Deep-learning model that recognizes hand gestures from a live webcam feed and converts them to text in real time
-- OpenCV for hand tracking and frame preprocessing; TensorFlow for classification
-- Accessibility-first — built to let a non-signer actually communicate, not just demo
-
-<sub>**Python** &nbsp;·&nbsp; **TensorFlow** &nbsp;·&nbsp; **OpenCV**</sub>
+<sub>**Machine Learning** &nbsp;·&nbsp; **Computer Vision** &nbsp;·&nbsp; **Chrome Extension** &nbsp;·&nbsp; **Real-Time Processing**</sub>
 
 </td>
 </tr>
