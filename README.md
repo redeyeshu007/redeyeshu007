@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="header-landscape.svg" width="100%" alt="Sudharsan E — Full-Stack Developer" />
+  <img src="header-landscape.svg" width="100%" alt="Sudharsan E — AI Engineer" />
 </div>
 
 <br />
 
 ## About
 
-CS Engineering student and full-stack developer. I enjoy turning rough ideas into clean, working software — and I learn fastest by shipping things people actually use. Most of my projects start with a simple question: “Can I make this actually work for real users?”
+I’m Sudharsan, an AI Engineer and 4× National-Level Hackathon Winner passionate about building innovative, real-world solutions with AI and technology.
 
 <br />
 
