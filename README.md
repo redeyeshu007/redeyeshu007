@@ -96,55 +96,6 @@ I’m Sudharsan, an AI Engineer and 4× National-Level Hackathon Winner passiona
 
 <br />
 
-## GitHub Statistics
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=redeyeshu007&show_icons=true&count_private=true&hide_border=true&title_color=00d4ff&icon_color=3b7dff&text_color=9fb2c9&bg_color=04060d" alt="GitHub Stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=redeyeshu007&layout=compact&langs_count=8&hide_border=true&title_color=00d4ff&text_color=9fb2c9&bg_color=04060d" alt="Top Languages" />
-
-<br /><br />
-
-<img width="80%" src="https://streak-stats.demolab.com?user=redeyeshu007&theme=tokyonight&hide_border=true&background=04060d&ring=00d4ff&fire=3b7dff&currStreakLabel=00d4ff&sideLabels=9fb2c9&dates=556b82" alt="Contribution Streak" />
-
-</div>
-
-<br />
-
-## Contribution Graph
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=redeyeshu007&bg_color=04060d&color=00d4ff&line=3b7dff&point=ffffff&area=true&area_color=3b7dff&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution Activity Graph" />
-
-</div>
-
-<br />
-
-## Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/redeyeshu007/redeyeshu007/output/snake.svg" alt="Contribution Snake Animation" />
-
-</div>
-
-<br />
-
-## Pac-Man Contribution
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/redeyeshu007/redeyeshu007/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/redeyeshu007/redeyeshu007/output/pacman-contribution-graph.svg">
-  <img src="https://raw.githubusercontent.com/redeyeshu007/redeyeshu007/output/pacman-contribution-graph.svg" alt="Pac-Man Contribution Graph" />
-</picture>
-
-</div>
-
-<br />
-
 ## Connect
 
 <div align="center">
